@@ -1,6 +1,8 @@
 # SFVC-Spotify-Login
 Example code for using SFSafariViewController as a login handler for Spotify SDK
 
+![](http://zippy.gfycat.com/DeadlyCommonGeese.gif)
+
 ---
 ## Getting started
 
