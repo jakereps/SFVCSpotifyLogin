@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		953819161BF923DF0015BB2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953819151BF923DF0015BB2C /* AppDelegate.swift */; };
+		953819181BF923DF0015BB2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953819171BF923DF0015BB2C /* ViewController.swift */; };
+		9538191B1BF923DF0015BB2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953819191BF923DF0015BB2C /* Main.storyboard */; };
+		9538191D1BF923DF0015BB2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9538191C1BF923DF0015BB2C /* Assets.xcassets */; };
+		953819201BF923DF0015BB2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9538191E1BF923DF0015BB2C /* LaunchScreen.storyboard */; };
+		9538192B1BF927D60015BB2C /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9538192A1BF927D60015BB2C /* Spotify.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		953819121BF923DF0015BB2C /* SFVC Spotify Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SFVC Spotify Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		953819151BF923DF0015BB2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		953819171BF923DF0015BB2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9538191A1BF923DF0015BB2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9538191C1BF923DF0015BB2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9538191F1BF923DF0015BB2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		953819211BF923DF0015BB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9538192A1BF927D60015BB2C /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
+		9538192D1BF928110015BB2C /* SFVC Spotify Login-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFVC Spotify Login-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9538190F1BF923DF0015BB2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9538192B1BF927D60015BB2C /* Spotify.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		953819091BF923DF0015BB2C = {
+			isa = PBXGroup;
+			children = (
+				9538192A1BF927D60015BB2C /* Spotify.framework */,
+				953819141BF923DF0015BB2C /* SFVC Spotify Login */,
+				953819131BF923DF0015BB2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		953819131BF923DF0015BB2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				953819121BF923DF0015BB2C /* SFVC Spotify Login.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		953819141BF923DF0015BB2C /* SFVC Spotify Login */ = {
+			isa = PBXGroup;
+			children = (
+				953819151BF923DF0015BB2C /* AppDelegate.swift */,
+				953819171BF923DF0015BB2C /* ViewController.swift */,
+				953819191BF923DF0015BB2C /* Main.storyboard */,
+				9538191C1BF923DF0015BB2C /* Assets.xcassets */,
+				9538191E1BF923DF0015BB2C /* LaunchScreen.storyboard */,
+				953819211BF923DF0015BB2C /* Info.plist */,
+				9538192D1BF928110015BB2C /* SFVC Spotify Login-Bridging-Header.h */,
+			);
+			path = "SFVC Spotify Login";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		953819111BF923DF0015BB2C /* SFVC Spotify Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953819241BF923DF0015BB2C /* Build configuration list for PBXNativeTarget "SFVC Spotify Login" */;
+			buildPhases = (
+				9538190E1BF923DF0015BB2C /* Sources */,
+				9538190F1BF923DF0015BB2C /* Frameworks */,
+				953819101BF923DF0015BB2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SFVC Spotify Login";
+			productName = "SFVC Spotify Login";
+			productReference = 953819121BF923DF0015BB2C /* SFVC Spotify Login.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9538190A1BF923DF0015BB2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jorden Kreps";
+				TargetAttributes = {
+					953819111BF923DF0015BB2C = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 9538190D1BF923DF0015BB2C /* Build configuration list for PBXProject "SFVC Spotify Login" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 953819091BF923DF0015BB2C;
+			productRefGroup = 953819131BF923DF0015BB2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				953819111BF923DF0015BB2C /* SFVC Spotify Login */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		953819101BF923DF0015BB2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953819201BF923DF0015BB2C /* LaunchScreen.storyboard in Resources */,
+				9538191D1BF923DF0015BB2C /* Assets.xcassets in Resources */,
+				9538191B1BF923DF0015BB2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9538190E1BF923DF0015BB2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953819181BF923DF0015BB2C /* ViewController.swift in Sources */,
+				953819161BF923DF0015BB2C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		953819191BF923DF0015BB2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9538191A1BF923DF0015BB2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9538191E1BF923DF0015BB2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9538191F1BF923DF0015BB2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		953819221BF923DF0015BB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		953819231BF923DF0015BB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		953819251BF923DF0015BB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "SFVC Spotify Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jordenkreps.SFVC-Spotify-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SFVC Spotify Login/SFVC Spotify Login-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		953819261BF923DF0015BB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "SFVC Spotify Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jordenkreps.SFVC-Spotify-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SFVC Spotify Login/SFVC Spotify Login-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9538190D1BF923DF0015BB2C /* Build configuration list for PBXProject "SFVC Spotify Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953819221BF923DF0015BB2C /* Debug */,
+				953819231BF923DF0015BB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953819241BF923DF0015BB2C /* Build configuration list for PBXNativeTarget "SFVC Spotify Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953819251BF923DF0015BB2C /* Debug */,
+				953819261BF923DF0015BB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9538190A1BF923DF0015BB2C /* Project object */;
+}
