@@ -51,8 +51,6 @@ class ViewController: UIViewController {
         
         let url = SPTAuth.defaultInstance().loginURL
         
-        print(url.absoluteString)
-        
         self.safariVC = SFSafariViewController(URL: url)
         
         self.presentViewController(safariVC!, animated: true, completion: nil)
